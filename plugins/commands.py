@@ -130,13 +130,7 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("🔎 Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("Go Inline 🗣️", switch_inline_query='')
-                ],[
-                InlineKeyboardButton("🖲️ Commands", callback_data="help"),
-                InlineKeyboardButton("About Bot 🧑‍🔧", callback_data="about")
-                ],[
-                InlineKeyboardButton("🤖 More Bots @BotzListBot 🤖", url="https://t.me/BotzListBot")
+                              InlineKeyboardButton("🤖 More Movies @cmoviehubsl 🤖", url="https://t.me/cmoviehubsl")
                 ]]
             )
         )
